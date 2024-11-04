@@ -24,7 +24,7 @@ export default function Page() {
         setItems([...items, item]);
     }
     return(
-        <div className="flex">
+        <div className="flex mt-2 items-start">
             <div>
                 <NewItem onAddItem={handleAddItem}/>
                 <ItemList items={items} onItemSelect={handleItemSelect}/>

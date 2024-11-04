@@ -27,7 +27,7 @@ function NewItem({ onAddItem }) {
             <form onSubmit={(e) => handleSubmit(e)}>
             <input
             type="text"
-            className="rounded-lg w-full p-3 mt-5 mb-3 text-black text-xl"
+            className="rounded-lg w-full p-3 mb-3 text-black text-xl"
             value={name}
             onChange={(e) => {
                 setName(e.target.value);
