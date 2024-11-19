@@ -12,7 +12,8 @@ function page() {
       <Link href="/week-6"> Week 6 Page</Link><br />
       <Link href="/week-7"> Week 7 Page</Link><br />
       <Link href="/week-8"> Week 8 Page</Link><br />
-      <Link href="/week-9"> Week 9 Page</Link>
+      <Link href="/week-9"> Week 9 Page</Link><br />
+      <Link href="/week-10">Week 10 Page </Link>
       </div>
   )
 }
