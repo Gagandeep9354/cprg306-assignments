@@ -45,6 +45,7 @@ export default function Page() {
     const handleDeleteItem = async (id) => {
         await deleteItem(user.uid, id);
         loadItems();
+        setSelectedItemName("");
     }
     return(
         <div>
