@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is my final project for webdev course
+# 🛒 Shopping List Application
 
-## Getting Started
+A full-stack web application designed to help users create and manage shopping lists efficiently. Users can categorize items, track quantities, and explore meal ideas based on their shopping list items using an integrated recipe API.
 
-First, run the development server:
+## 🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **User Authentication:**  
+  - Secure user authentication using Firebase Authentication.
+  - Support for email/password login and third-party authentication.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Shopping List Management:**  
+  - Add, edit, and delete shopping list items with categories such as produce, dairy, etc.
+  - Quantity tracking for each item.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Meal Suggestions:**  
+  - Integrated with an external recipe API to provide meal ideas based on shopping list ingredients.
+  - Displays additional ingredients required for selected recipes.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Real-Time Database:**  
+  - Firestore used for storing and syncing shopping list data across multiple devices.
 
-## Learn More
+- **Responsive UI:**  
+  - Built with Next.js for a fast and optimized user experience.
+  - Mobile-friendly design for accessibility on various devices.
 
-To learn more about Next.js, take a look at the following resources:
+## 🏗️ Technologies Used
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Frontend:**  
+  - Next.js (React Framework)  
+  - Tailwind CSS for styling  
+  - Firebase Authentication  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- **Backend & Database:**  
+  - Firebase Firestore (NoSQL database)  
+  - Node.js for API interactions  
 
-## Deploy on Vercel
+- **Other Tools & Libraries:**  
+  - Axios for API requests  
+  - React Hook Form for form handling  
+  - Git & GitHub for version control  
+  - CI/CD pipelines for deployment  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🛠️ Setup Instructions
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/yourusername/shopping-list-app.git
+   cd shopping-list-app
